@@ -1,0 +1,9 @@
+public class GhostType implements Type {
+    @Override
+    public double calculateEffectiveness(Type opponentType) {
+        if (opponentType instanceof PsychicType) {
+            return 2.0;
+        }
+        return 1.0;
+    }
+}
