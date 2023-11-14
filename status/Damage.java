@@ -26,7 +26,6 @@ class DamageCalculator implements Damage {
         return damage;
     }
 
-
     private double modifier() {
         Random random = new Random();
         double modifier = random.nextDouble() * 0.15 + 0.85;
