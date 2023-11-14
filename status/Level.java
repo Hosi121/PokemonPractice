@@ -7,4 +7,8 @@ public class Level{
         this.level += value;
         return this.level;
     }
+
+    public int getValue() {
+        return this.level;
+    }
 }

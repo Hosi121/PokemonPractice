@@ -11,4 +11,8 @@ public class AttackPoint{
         this.Attackpoint -= value;
         return this.Attackpoint;
     }
+
+    public int getValue() {
+        return this.Attackpoint;
+    }
 }

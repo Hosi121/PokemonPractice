@@ -11,4 +11,8 @@ public class DefencePoint{
         this.Defencepoint -= value;
         return this.Defencepoint;
     }
+
+    public int getValue() {
+        return this.Defencepoint;
+    }
 }

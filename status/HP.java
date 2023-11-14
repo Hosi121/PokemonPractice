@@ -1,6 +1,10 @@
 public class HP {
     private int hp;
 
+    public int getValue() {
+        return this.hp;
+    }
+
     public HP(final int value)
     {
         if(value < 0)
