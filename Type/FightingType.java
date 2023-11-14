@@ -6,4 +6,9 @@ public class FightingType implements Type {
         }
         return 1.0;
     }
+
+    @Override
+    public String getTypeName() {
+        return "Fighting";
+    }
 }

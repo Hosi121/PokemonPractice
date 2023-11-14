@@ -6,4 +6,9 @@ public class RockType implements Type {
         }
         return 1.0;
     }
+
+    @Override
+    public String getTypeName() {
+        return "Rock";
+    }
 }

@@ -6,4 +6,9 @@ public class FlyingType implements Type {
         }
         return 1.0;
     }
+
+    @Override
+    public String getTypeName() {
+        return "Flying";
+    }
 }
