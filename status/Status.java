@@ -61,12 +61,16 @@ public class Status {
                 '}';
     }
 
-    public Status(Name name, Level level, HP hp, AttackPoint attackPoint, DefencePoint defencePoint, Type type) {
+    public Status(ID ID, Name name, Level level, HP hp, AttackPoint attackPoint, DefencePoint defencePoint, SpecialAttackPoint specialAttackPoint, SpecialDefencePoint specialDefencePoint, Speed speed, Type type) {
+        this.ID = ID;
         this.name = name;
         this.level = level;
         this.hp = hp;
         this.attackPoint = attackPoint;
         this.defencePoint = defencePoint;
+        this.specialAttackPoint = specialAttackPoint;
+        this.specialDefencePoint = specialDefencePoint;
+        this.speed = speed;
         this.type = type;
     }
 
