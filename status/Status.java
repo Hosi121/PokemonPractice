@@ -5,6 +5,9 @@ public class Status {
     private HP hp;
     private AttackPoint attackPoint;
     private DefencePoint defencePoint;
+    private SpecialAttackPoint specialAttackPoint;
+    private SpecialDefencePoint specialDefencePoint;
+    private Speed speed;
     private Type type;
 
     public ID getID() {
@@ -14,7 +17,7 @@ public class Status {
     public Name getName() {
         return name;
     }
-    
+
     public Level getLevel() {
         return level;
     }
@@ -29,6 +32,18 @@ public class Status {
 
     public DefencePoint getDefencePoint() {
         return defencePoint;
+    }
+
+    public SpecialAttackPoint getSpecialAttackPoint() {
+        return specialAttackPoint;
+    }
+
+    public SpecialDefencePoint getSpecialDefencePoint() {
+        return specialDefencePoint;
+    }
+
+    public Speed getSpeed() {
+        return speed;
     }
 
     public Type getType() {
