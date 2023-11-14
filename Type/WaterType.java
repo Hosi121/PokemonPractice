@@ -9,4 +9,9 @@ public class WaterType implements Type {
         }
         return 1.0;
     }
+
+    @Override
+    public String getTypeName() {
+        return "Water";
+    }
 }

@@ -1,4 +1,5 @@
 public class Status {
+    private ID ID;
     private Name name;
     private Level level;
     private HP hp;
@@ -6,10 +7,14 @@ public class Status {
     private DefencePoint defencePoint;
     private Type type;
 
+    public ID getID() {
+        return ID;
+    }
+
     public Name getName() {
         return name;
     }
-
+    
     public Level getLevel() {
         return level;
     }
@@ -33,14 +38,13 @@ public class Status {
     @Override
     public String toString() {
         return "Status{" +
-               "name=" + name +
-               ", level=" + level +
-               ", hp=" + hp +
-               ", attackPoint=" + attackPoint +
-               ", defencePoint=" + defencePoint +
-               '}';
+                "name=" + name +
+                ", level=" + level +
+                ", hp=" + hp +
+                ", attackPoint=" + attackPoint +
+                ", defencePoint=" + defencePoint +
+                '}';
     }
-
 
     public Status(Name name, Level level, HP hp, AttackPoint attackPoint, DefencePoint defencePoint, Type type) {
         this.name = name;
