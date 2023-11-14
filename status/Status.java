@@ -78,3 +78,15 @@ public class Status {
         this.hp = this.hp.lose(value);
     }
 }
+
+final class ID {
+    private int ID;
+
+    public ID(int value) {
+        this.ID = value;
+    }
+
+    public int getValue() {
+        return this.ID;
+    }
+}

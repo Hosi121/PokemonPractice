@@ -1,19 +1,22 @@
+import Status.Name;
+import Type.Type;
+
 public class Move {
-    private String name;
-    private String type;
+    private Name name;
+    private Type type;
     private int power;
 
-    public Move(String name, String type, int power) {
+    public Move(Name name, Type type, int power) {
         this.name = name;
         this.type = type;
         this.power = power;
     }
 
-    public String getName() {
+    public Name getName() {
         return name;
     }
 
-    public String getType() {
+    public Type getType() {
         return type;
     }
 
