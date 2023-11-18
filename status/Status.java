@@ -1,3 +1,5 @@
+package Status;
+
 public class Status {
     private ID ID;
     private Name name;
@@ -74,19 +76,8 @@ public class Status {
         this.type = type;
     }
 
-    public void loseHP(int value) {
-        this.hp = this.hp.lose(value);
-    }
-}
-
-final class ID {
-    private int ID;
-
-    public ID(int value) {
-        this.ID = value;
-    }
-
-    public int getValue() {
-        return this.ID;
+    public void loseHP(double damageValue) {
+        Damage damage = new BasicDamage(damageValue);
+        this.hp = this.hp.lose(damage);
     }
 }

@@ -1,3 +1,5 @@
+package Status;
+
 public class AttackPoint{
     private int Attackpoint;
     public AttackPoint(int value) {

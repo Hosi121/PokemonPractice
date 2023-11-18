@@ -1,3 +1,5 @@
+package Status;
+
 public class Level{
     private int level;
     public Level(int value) {

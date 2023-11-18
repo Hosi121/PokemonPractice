@@ -1,3 +1,5 @@
+import Status.Status;
+
 public interface Pokemon {
     void attack(Pokemon opponent);
     void defend();

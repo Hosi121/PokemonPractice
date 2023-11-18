@@ -1,3 +1,5 @@
+package Status;
+
 public class Speed{
     private int Speed;
     public Speed(int value) {

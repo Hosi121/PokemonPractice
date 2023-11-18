@@ -1,3 +1,5 @@
+package Status;
+
 public class SpecialAttackPoint{
     private int SpecialAttackpoint;
     public SpecialAttackPoint(int value) {

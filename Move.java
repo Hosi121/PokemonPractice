@@ -23,4 +23,7 @@ public class Move {
     public int getPower() {
         return power;
     }
+    public int get Damage(){
+        return damage;
+    }
 }

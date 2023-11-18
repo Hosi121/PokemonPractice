@@ -1,3 +1,5 @@
+package Status;
+
 public class SpecialDefencePoint{
     private int SpecialDefencepoint;
     public SpecialDefencePoint(int value) {

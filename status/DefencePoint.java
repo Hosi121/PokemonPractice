@@ -1,3 +1,5 @@
+package Status;
+
 public class DefencePoint{
     private int Defencepoint;
     public DefencePoint(int value) {

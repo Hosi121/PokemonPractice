@@ -1,3 +1,5 @@
+package Status;
+
 public class Name {
     private String name;
 

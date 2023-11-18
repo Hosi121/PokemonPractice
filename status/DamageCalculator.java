@@ -1,3 +1,4 @@
+package Status;
 import java.util.Random;
 
 class DamageCalculator implements Damage {

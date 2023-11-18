@@ -1,3 +1,5 @@
+package Status;
+
 public class HP {
     private int hp;
 

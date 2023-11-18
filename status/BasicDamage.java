@@ -1,3 +1,5 @@
+package Status;
+
 public class BasicDamage implements Damage {
     private double damage;
 
